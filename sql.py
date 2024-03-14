@@ -1,5 +1,5 @@
 import streamlit as st
-
+pip install streamlit-option-menu
 with st.sidebar:
     choose = option_menu("DS Project",
                          ["About", 
