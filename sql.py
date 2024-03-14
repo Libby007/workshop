@@ -1,11 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 with st.sidebar:
-    choose = option_menu("DS Project",
+    choose = option_menu("SQL workshop",
                          ["About", 
-                          "Toronto condo price prediction", 
-                          "Condo clustering", "Condo search engine"
-                             , "Multi-criteria ranked condos", "Talk to AI Libby", "Algorithm theory and principle"],
+                          "join", 
+                          "aggregate", "string"
+                             , "order by", "limit", "Algorithm theory and principle"],
                          icons=['fingerprint', 'house fill', 'kanban', 'google', 'award', 'robot', 'book'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
